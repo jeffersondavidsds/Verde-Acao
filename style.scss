@@ -1,0 +1,110 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+//padding-left: 50px; Move o conteúdo 50px para a direita internamente
+//padding-top: 50px; Move o conteúdo 50px para baixo internamente
+//padding-right: 50px; Move o conteúdo 50px para a esquerda internamente
+//padding-bottom: 50px; Move o conteúdo 50px para cima internamente
+
+
+header{
+    background-color: #66BB6A;
+    width: 100%;
+    height: 20vh;
+    padding-left: 10%;
+    font-family: "Sansita Swashed", system-ui;
+    //padding-left: 50px;
+    //padding-top: 50px;
+    //margin-top: 20px; //Move o header 20px para baixo externamente
+    //margin-left: 20px; //Move o header 20px para a direita externamente
+.headeratividades{
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+.headercadastrese{
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 17px;
+}
+}
+
+
+h2{
+        
+    display:block; //Ocupa toda a linha (horizontal/largura) independente do tamanho do elemento, comportamento de <div>, <h1>, <p>, etc;
+    
+    display: inline; //Ocupa somente o tamanho do conteúdo/elemento, comportamento da tag <a> e <span>;
+
+    display: inline-block; //Combinação dos dois comportamentos acima;
+    width: 50%;
+    color: white;
+
+}
+
+nav{
+    //background-color: rgb(100, 149, 237);
+    display: inline-block;
+    width: 40%;
+    text-align: end;
+
+
+}
+
+a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+
+}
+
+.background{
+    background-color: #A5D6A7;
+    width: 100%;
+    height: 45vh;
+    padding-left: 30%;
+    padding-top: 5%;
+    background-image: url("./Assets/background.png");
+    background-repeat: no-repeat;
+
+}
+
+.queroservoluntario{
+    background-color: #A5D6A7;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 15px 30px;
+    border-radius: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+
+.h1queroser{
+    color: #ffffff;
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-family: "Sansita Swashed", system-ui;
+
+}
+.pqueroser{
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 20px;
+    max-width: 500px;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+
+}
+
