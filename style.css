@@ -6,26 +6,30 @@
 * header {
   background-color: #66BB6A;
   width: 100%;
-  height: 20vh;
+  height: 7vh;
   padding-left: 10%;
+  padding-top: 10px;
   font-family: "Sansita Swashed", system-ui;
 }
 * header .headeratividades {
-  font-family: Roboto;
-  font-weight: 700;
-  font-style: Bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
   font-size: 17px;
   line-height: 100%;
   letter-spacing: 0%;
 }
 * header .headercadastrese {
-  font-family: Roboto;
-  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
   font-style: Bold;
   font-size: 17px;
 }
 * h2 {
   display: block;
+  width: 256px;
+  height: 60px;
+  top: 31px;
+  left: 207;
   display: inline;
   display: inline-block;
   width: 50%;
@@ -44,37 +48,82 @@
 
 .background {
   background-color: #A5D6A7;
-  width: 100%;
-  height: 45vh;
+  width: 2, 440px;
+  height: 500px;
+  left: 50px;
+  right: 200px;
+  top: 123px;
   padding-left: 30%;
   padding-top: 5%;
   background-image: url("./Assets/background.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .queroservoluntario {
-  background-color: #A5D6A7;
-  color: rgb(0, 0, 0);
+  width: 220px;
+  height: 56px;
+  background-color: #66BB6A;
+  color: #ffffff;
   border: none;
-  padding: 15px 30px;
+  padding: 17px 30px;
   border-radius: 40px;
-  font-size: 16px;
+  font-size: 14px 10px;
+  font-weight: bold;
   cursor: pointer;
-  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 90px;
+  margin-right: 517px;
+  margin-left: 260px;
 }
 
 .h1queroser {
+  width: 797px;
+  height: 56;
+  top: 408.56px;
+  left: 322px;
+  right: 322px;
+  opacity: 1;
   color: #ffffff;
-  font-size: 48px;
-  margin-bottom: 20px;
+  font-size: 60px;
+  margin-bottom: 50px;
+  margin-top: 90px;
   font-family: "Sansita Swashed", system-ui;
+  margin-right: 517px;
+  margin-left: 220px;
 }
 
 .pqueroser {
   color: #ffffff;
-  font-size: 20px;
-  margin-bottom: 20px;
-  max-width: 500px;
-  line-height: 1.5;
-  font-family: Arial, sans-serif;
+  width: 797;
+  height: 10px;
+  top: 408.56px;
+  left: 322px;
+  right: 322px;
+  opacity: 1;
+  font-family: Roboto;
+  font-weight: 50;
+  font-size: 19px;
+  letter-spacing: 10%;
+  text-align: center;
+  margin-right: 517px;
+  margin-left: 100px;
+}
+
+.imagemcards {
+  width: 1440px;
+  height: 660px;
+  left: 0px;
+  top: 694px;
+  background: #94ff1a;
+}
+
+.imagem1 {
+  /* girassol */
+  border-radius: 20px;
+  width: 311px;
+  height: 197px;
+  left: -3px;
+  top: 0px;
+  margin-bottom: 10px;
 }/*# sourceMappingURL=style.css.map */
