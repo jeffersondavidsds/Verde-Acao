@@ -72,9 +72,9 @@
   font-weight: bold;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
-  margin-top: 90px;
+  margin-top: 60px;
   margin-right: 517px;
-  margin-left: 260px;
+  margin-left: 270px;
 }
 
 .h1queroser {
@@ -90,13 +90,13 @@
   margin-top: 90px;
   font-family: "Sansita Swashed", system-ui;
   margin-right: 517px;
-  margin-left: 220px;
+  margin-left: 225px;
 }
 
 .pqueroser {
   color: #ffffff;
   width: 797;
-  height: 10px;
+  height: 10%;
   top: 408.56px;
   left: 322px;
   right: 322px;
@@ -104,26 +104,57 @@
   font-family: Roboto;
   font-weight: 50;
   font-size: 19px;
-  letter-spacing: 10%;
   text-align: center;
   margin-right: 517px;
   margin-left: 100px;
 }
 
-.imagemcards {
-  width: 1440px;
-  height: 660px;
-  left: 0px;
-  top: 694px;
-  background: #94ff1a;
+.cards {
+  background-color: #ffffff;
+  margin-left: 10%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  gap: 10vh;
 }
 
-.imagem1 {
-  /* girassol */
+.card {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5254901961);
+  background-color: #f4f4f4;
+  width: 20vw;
+  height: 60vh;
+  top: 811px;
+  left: 42.88px;
   border-radius: 20px;
-  width: 311px;
-  height: 197px;
-  left: -3px;
-  top: 0px;
-  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 15vh;
+  display: inline-block;
+}
+.card img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.card h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.75rem;
+  margin-top: 20px;
+}
+.card p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 15px 10px;
+}
+.card button {
+  border-color: black;
+  background-color: #66BB6A;
+  color: #ffffff;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+  border-radius: 30px;
 }/*# sourceMappingURL=style.css.map */
