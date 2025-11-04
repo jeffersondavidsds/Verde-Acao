@@ -16,6 +16,14 @@
   font-family: "Sansita Swashed", system-ui;
   font-size: 25px;
 }
+* header .logoverdeacao {
+  width: 30px;
+  height: 40px;
+  margin-right: -6rem;
+  margin-left: -10rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
 * header .headeratividades {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
@@ -68,6 +76,7 @@
   background-image: url("./Assets/background.png");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-left: 1rem;
 }
 
 .itensbackground {
@@ -192,7 +201,7 @@
 }
 
 .backgroundform {
-  background-color: #A5D6A7;
+  background-color: #daf2db;
   width: 100%;
   height: auto;
   margin-top: 50px;
@@ -203,25 +212,26 @@
   font-family: "roboto", system-ui;
   font-size: 36px;
   margin-top: 50px;
-  margin-bottom: 20px;
+  margin-bottom: -60px;
   color: #000000;
   text-align: center;
 }
 
 .façaparte {
   font-family: "roboto", system-ui;
-  font-size: 1.125rem;
-  margin-bottom: 40px;
+  font-size: 1.325rem;
+  margin-bottom: -50px;
   color: #000000;
   text-align: center;
   width: 60%;
+  padding: -1rem;
 }
 
 .formulario {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #A5D6A7;
+  background-color: #daf2db;
   width: 80%;
   margin-left: 10%;
   margin-right: 5%;
@@ -230,4 +240,79 @@
   justify-content: center;
   gap: 10vh;
   padding-bottom: 50px;
+}
+
+.formcadastro {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 2.1vh;
+  font-weight: bold;
+  font-family: "roboto", system-ui;
+  margin-bottom: -70px;
+}
+.formcadastro :-moz-placeholder {
+  color: #000000;
+  opacity: 0.7;
+  font-size: 1.3rem;
+  padding-left: 1rem;
+}
+.formcadastro :placeholder-shown {
+  color: #000000;
+  opacity: 0.7;
+  font-size: 1.3rem;
+  padding-left: 1rem;
+}
+.formcadastro .inputnome {
+  width: 43.438rem;
+  height: 5vh;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.formcadastro .selectatividade {
+  width: 43.438rem;
+  height: 5vh;
+  border-radius: 20px;
+  font-size: 1.9vh;
+  font-weight: 100rem;
+  font-family: "roboto", system-ui;
+  padding-right: 10rem;
+}
+.formcadastro .inputemail {
+  width: 43.438rem;
+  height: 5vh;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.formcadastro .inputcidade {
+  width: 43.438rem;
+  height: 5vh;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.formcadastro .botaocadastrar {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6392156863);
+  height: 5vh;
+  border-radius: 20px;
+  background-color: #66BB6A;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #66BB6A;
+  width: 119.1rem;
+  height: 7vh;
+  font-family: "roboto", system-ui;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-top: 0;
 }/*# sourceMappingURL=style.css.map */
