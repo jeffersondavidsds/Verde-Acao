@@ -23,9 +23,11 @@
 
     
     <section class="background">
+        <div class="itensbackground">
         <h1 class="h1queroser">Verde Ação</h1>
         <p class="pqueroser">Ser voluntário na Verde Ação é plantar esperança e colher transformação. Juntos, cuidamos do planeta e inspiramos mudanças reais!</p>
         <button class="queroservoluntario">Quero ser um voluntário</button>
+        </div>
         
     </section>
 
@@ -60,12 +62,38 @@
         </article>
         
     </section>
+<div class="backgroundform">
+<section class="formulario">
+    <h1 class="cadastre-sevol">Cadastre-se como voluntário</h1>
+    <p class="façaparte">Faça parte de ações que transformam o mundo. Com pequenas atitudes, você pode gerar grandes impactos na natureza e na comunidade.</p>
+    <form class="formcadastro">
 
+        <p>Nome:</p>
+        <input class="inputnome" type="text" placeholder="Nome Completo">
+        
+        <p>E-mail:</p>
+        <input class="inputemail" type="email" placeholder="Email">
 
+        <p>Cidade:</p>
+        <input class="Cidade" type="Cidade" placeholder="Cidade">
 
+        <p>Atividade:</p>
+        <select class="selectatividade" name="Atividade" id="Atividade">
 
+            <option value="Atividade" disabled selected>Selecione a Atividade</option>
+            <option value="Mudas">Plantio de Mudas</option>
+            <option value="Educação">Educação Ambiental</option>
+            <option value="Cuidados">Cuidados</option>
+            <option value="Mapeamento">Mapeamento</option>
+        </select>
+        <button class="botaocadastrar" type="submit">Cadastrar</button>
+    </form>
+</section>
+</div>
 
-
+<footer class="footer">
+    <p class="pfooter">©2025 Verde Ação. Todos os direitos reservados.</p>
+</footer>
 
 </body>
 </html>

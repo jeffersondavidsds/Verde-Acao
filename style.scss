@@ -11,13 +11,16 @@
 
 
 header{
-    
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
     background-color: #66BB6A;
-    width: 100%;
+    width: 119.1rem;
     height: 7vh;
     padding-left: 10%;
     padding-top: 10px;
     font-family: "Sansita Swashed", system-ui;
+    font-size: 25px;
     //padding-left: 50px;
     //padding-top: 50px;
     //margin-top: 20px; //Move o header 20px para baixo externamente
@@ -26,22 +29,25 @@ header{
 .headeratividades{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
-    font-size: 17px;
+    font-size:20px;
     line-height: 100%;
     letter-spacing: 0%;
+    margin-right: 10vh;
+    text-align: center;
 
 }
 .headercadastrese{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     font-style: Bold;
-    font-size: 17px;
+    font-size: 20px;
+    margin-right: 10vh;
 }
 }
 
 
 h2{
-        
+    font-size: 35px;
     display:block; //Ocupa toda a linha (horizontal/largura) independente do tamanho do elemento, comportamento de <div>, <h1>, <p>, etc;
     width: 256px;
     height: 60px;
@@ -74,34 +80,45 @@ a{
 }
 
 .background{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
     background-color: #A5D6A7;
-    width: 2,440px;
-    height: 500px;
-    left: 50px;
-    right: 200px;
-    top: 123px;
-    padding-left:30%;
-    padding-top: 5%;
+    width: 119.1rem;
+    height: 35.75rem;
+    top: 7.688rem;
     background-image: url("./Assets/background.png");
     background-repeat: no-repeat;
-
-    background-size: cover;
+    background-size:cover;
 
 }
 
+.itensbackground{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    margin-left: 15rem;
+}
+
 .queroservoluntario{
-    width: 220px;
-    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    width: 250px;
+    height: 60px;
     background-color: #66BB6A;
     color: #ffffff;
     border: none;
-    padding: 17px 30px;
+    padding: 30px 40px;
     border-radius: 40px;
-    font-size: 14px 10px;
+    font-size: 20px 20px;
     font-weight: bold;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
-    margin-top: 60px;
+    margin-top: 50px;
     margin-right: 517px;
     margin-left: 270px;
     
@@ -111,6 +128,9 @@ a{
 }
 
 .h1queroser{
+display: flex;
+justify-content: center;
+align-items: center;
 width: 797px;
 height: 56;
 top: 408.56px;
@@ -118,7 +138,7 @@ left: 322px;
 right: 322px;
 opacity: 1;
 color: #ffffff;
-font-size: 60px;
+font-size: 70px;
 margin-bottom: 50px;
 margin-top: 90px;
 font-family: "Sansita Swashed", system-ui;
@@ -128,26 +148,28 @@ margin-left: 225px;
 
 }
 .pqueroser{
+display: flex;
+align-items: center;
+justify-self: center;
+position: center;
 color: #ffffff;
-width: 797;
-height: 10%;
-top: 408.56px;
-left: 322px;
-right: 322px;
 opacity: 1;
 font-family: Roboto;
-font-weight: 50;
-font-size: 19px;
+font-weight: 90;
+font-size: 23px;
 text-align: center;
-margin-right: 517px;
-margin-left: 100px;
+width: 600px;
+margin-right: 16rem;
 
 
 
 }
 
 .cards{
-    background-color: #ffffff; 
+    display: flexbox;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 80%;
     margin-left: 10%;
     margin-right: 5%;
     margin-bottom: 5%;
@@ -165,7 +187,6 @@ left: 42.88px;
 border-radius: 20px;
 text-align: center;
 margin-top: 15vh;
-display: inline-block;
 
 img{
     width: 100%;
@@ -177,7 +198,8 @@ img{
 h3{
     font-family: "Roboto", sans-serif;
     font-size: 1.75rem;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 2rem;
 
 }
 
@@ -185,17 +207,64 @@ p{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     margin: 15px 10px;
+    padding-bottom: 1vh;
 }
 button{
-   border-color: darken($color: #000000, $amount: 0);
+   display: flexbox;
+   justify-content: center;
+   border-color: solid;
+   box-shadow: #000000;
    background-color: #66BB6A;
    color:#ffffff;
-   margin-top: 30px;
+   margin-top: 7rem;
+   margin-bottom:10%;
    padding-top: 10px;
    padding-left: 25px;
    padding-right: 25px;
    padding-bottom: 10px;
    border-radius: 30px;
+   cursor: pointer;
 }
 
+}
+.backgroundform{
+    background-color: #A5D6A7;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.cadastre-sevol{
+    font-family: "roboto", system-ui;
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+.façaparte{
+    font-family: "roboto", system-ui;
+    font-size: 1.125rem;
+    margin-bottom: 40px;
+    color: #000000;
+    text-align: center;
+    width: 60%;
+
+}
+
+.formulario{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: #A5D6A7;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 10vh;
+    padding-bottom: 50px;
 }
